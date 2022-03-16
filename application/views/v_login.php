@@ -32,6 +32,11 @@
 <body class="login">
     <div class="wrapper wrapper-login">
         <div class="container container-login animated fadeIn">
+            <div class="row text-center mb-2">
+                <div class="col-sm">
+                    <img src="<?php echo base_url(); ?>assets/img/icon-a.png" class="img-fluid " width="100px" alt="">
+                </div>
+            </div>
 
             <h3 class="text-center">Sign In To Admin</h3>
 
@@ -65,14 +70,13 @@
                     </div>
 
                     <div class="row form-sub m-0">
-                        <a href="#" class="link float-right">Forget Password ?</a>
+                        <a href="https://api.whatsapp.com/send/?phone=6282148722747&text=Hi,%20saya+*SWAJASA+Lintas+Media*+lupa+password!" class="link float-right">Lupa Password ?</a>
                     </div>
                     <div class="form-action mb-3">
                         <button type="submit" class="btn btn-primary btn-rounded btn-login">Sign In</button>
                     </div>
                     <div class="login-account">
-                        <span class="msg">Don't have an account yet ?</span>
-                        <a href="#" id="show-signup" class="link">Sign Up</a>
+                        <a href="<?php echo base_url() . '' ?>" class="link">Back To Home</a>
                     </div>
                 </div>
             </form>

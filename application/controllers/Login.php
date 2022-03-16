@@ -64,7 +64,7 @@ class Login extends CI_Controller
 
                 // alihkan halaman ke halaman dashboard pengguna
 
-                redirect(base_url() . 'dashboard');
+                redirect(base_url() . 'dashboard?alert=berhasil_login');
             } else {
                 redirect(base_url() . 'login?alert=gagal');
             }
