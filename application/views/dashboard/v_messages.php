@@ -7,6 +7,9 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="card">
+                        <div class="card-header">
+                            <h3>Customer Messages</h3>
+                        </div>
                         <div class="card-body">
                             <table class="table table-bordered">
                                 <thead>

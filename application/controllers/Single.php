@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Welcome extends CI_Controller
+class Single extends CI_Controller
 {
 
 	/**
@@ -31,11 +31,15 @@ class Welcome extends CI_Controller
 
 	public function index()
 	{
+	}
+
+	public function installationLanWifi()
+	{
+		$data['title'] = 'Installation LAN & Wi-Fi';
 		$data['kontak'] = $this->m_data->get_data('kontak')->result();
-		$this->load->view('landingpages/v_header.php');
-		$this->load->view('landingpages/v_mitra.php');
-		$this->load->view('landingpages/v_index.php');
+		$this->load->view('singel/v_header.php', $data);
+		$this->load->view('singel/v_index1.php');
 		$this->load->view('landingpages/v_contact.php', $data);
-		$this->load->view('landingpages/v_footer.php');
+		$this->load->view('singel/v_footer.php');
 	}
 }

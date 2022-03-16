@@ -8,7 +8,11 @@
             <div class="col-sm">
                 <h3>Kelebihan Kami</h3>
                 <p class="card-text"><small class="text-muted">Pelayanan adalah prioritas kami selaku penyedia layanan internet, Berusaha semaksimal mungkin, meminimalis gangguan dengan monitoring selama 24 jam, Oleh karena itu di era digital seperti sekarang internet adalah kebutuhan pokok yang tidak bisa diabaikan, mulai dari kegiatan usaha, sekolah, perdagangan, konten konten creator, belanja, iklan akan sangat mudah dan efisien bila internet menjadi penunjang itu semua.Untuk itu kami ada dan siap memberikan pelayanan maksimal.</small></p>
-                <a href="http://" class="btn btn-success"><i class="fa-solid fa-phone-volume"></i> Call Now</a>
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="" class="btn btn-sm"><img src="<?php echo base_url() . 'assets/landingpages' ?>/img/whatsapp.png" class="img-fluid sm" width="30px" alt=""> WhatsApp</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row text-center mb-4">
@@ -41,38 +45,38 @@
                 <h2>Layanan Kami</h2>
             </div>
         </div>
-        <div class="row d-flex justify-content-center">
-            <div class="col-sm-3 mb-4 text-center">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-sm-3 mb-4 text-center pt-2">
                 <img src="<?php echo base_url() . 'assets/landingpages' ?>/img/internet.png" class="img-fluid" alt="layanan" width="100">
                 <h3 class="fs-3">Installasi LAN & Wi-Fi</h3>
                 <p>
                     Jasa Installasi LAN dan Wireless dilakukan oleh team kami yang berpengalaman dalam bidangnya
                 </p>
-                <a href="http://" class="btn btn-warning btn-sm rounded">More</a>
+                <a href="<?php echo base_url() . 'single/installationLanWifi' ?>" class="text-white fw-light text-decoration-none fst-italic">More info</a>
             </div>
-            <div class="col-sm-3 mb-4 text-center">
+            <div class="col-sm-3 mb-4 text-center pt-2">
                 <img src="<?php echo base_url() . 'assets/landingpages' ?>/img/computer.png" class="img-fluid" alt="layanan" width="100">
                 <h3 class="fs-3">Internet Desa Mandiri</h3>
                 <p>
                     Teknologi yang mampu menjangkau seluruh pelosok Indonesia.
                 </p>
-                <a href="http://" class="btn btn-warning btn-sm rounded">Detail</a>
+                <a href="http://" class="text-white fw-light text-decoration-none fst-italic">More info</a>
             </div>
-            <div class="col-sm-3 mb-4 text-center">
+            <div class="col-sm-3 mb-4 text-center pt-2">
                 <img src="<?php echo base_url() . 'assets/landingpages' ?>/img/digital-marketing.png" class="img-fluid" alt="layanan" width="100">
                 <h3 class="fs-3">Production House Multimedia Creator</h3>
                 <p>
                     Untuk para pembuat konten youtuber, Kami melayani pembuatan video commercial untuk iklan, company profile.
                 </p>
-                <a href="http://" class="btn btn-warning btn-sm rounded">More</a>
+                <a href="http://" class="text-white fw-light text-decoration-none fst-italic">More info</a>
             </div>
-            <div class="col-sm-3 mb-4 text-center">
+            <div class="col-sm-3 mb-4 text-center pt-2">
                 <img src="<?php echo base_url() . 'assets/landingpages' ?>/img/cctv-camera.png" class="img-fluid" alt="layanan" width="100">
                 <h3 class="fs-3">Pemasangan CCTV</h3>
                 <p>
                     Kami juga menyediakan jasa Pemasangan CCTV beserta Installasi CCTV.
                 </p>
-                <a href="http://" class="text-white">More info</a>
+                <a href="http://" class="text-white fw-light text-decoration-none fst-italic">More info</a>
             </div>
         </div>
     </div>

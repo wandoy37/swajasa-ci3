@@ -1,6 +1,7 @@
  <!-- Footer -->
- <footer class="text-white p-4" style="background-color: #085ab8;">
-     <p class="text-center pt-4">© <i>Copyright</i> WanSite - Samarinda | 2022</p>
+ <footer class="text-center text-white p-4" style="background-color: #085ab8;">
+     <p class="pt-4">© <i>Copyright</i> <a href="https://www.wansite.tech" class="text-decoration-none text-white">WanSite - Samarinda </a>| 2022</p>
+     <a href="<?php echo base_url() . 'login' ?>" class="text-white fw-light text-decoration-none">Operator</a>
  </footer>
  <!-- /Footer -->
 

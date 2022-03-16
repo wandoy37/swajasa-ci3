@@ -15,7 +15,7 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/landingpages' ?>/fontawesome/css/all.css">
 
-    <title>Swajasa lintas</title>
+    <title>Swajasa lintas | <?= $title; ?></title>
 </head>
 
 <body id="beranda">
@@ -46,23 +46,4 @@
             </div>
         </div>
     </nav>
-    <!-- Jumbotron -->
-    <section class="jumbotron">
-        <div class="container pt-4">
-            <div class="row ms-4 align-items-center animate__animated animate__bounce">
-                <div class="col-md-6">
-                    <img src="<?php echo base_url() . 'assets/landingpages' ?>/img/logo-banner.png" class="img-fluid" alt="WanSite" width="350">
-                    <h3 class="text-white pt-3">Solusi anda sebagai provider jasa IT <i>Internet</i> dan <i>Multimedia</i></h3>
-                </div>
-                <div class="col-md-6 ">
-                    <img src="<?php echo base_url() . 'assets/landingpages' ?>/img/img-banner.png" class="img-fluid" alt="WanSite" width="500">
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ffffff" fill-opacity="1" d="M0,96L120,117.3C240,139,480,181,720,176C960,171,1200,117,1320,90.7L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-    <!-- /Jumbotron -->
     <!-- /Header -->
