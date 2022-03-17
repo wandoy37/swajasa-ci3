@@ -101,32 +101,6 @@ class Dashboard extends CI_Controller
 		$this->load->view('dashboard/v_footer');
 	}
 
-	public function send_message()
-	{
-		$this->form_validation->set_rules('nama', 'Nama', 'required');
-		$this->form_validation->set_rules('email', 'Email', 'required');
-		$this->form_validation->set_rules('phone', 'Phone', 'required');
-		$this->form_validation->set_rules('messages', 'Messages', 'required');
-
-		if ($this->form_validation->run() != false) {
-			$nama = $this->input->post('nama');
-			$email = $this->input->post('email');
-			$phone = $this->input->post('phone');
-			$messages = $this->input->post('messages');
-
-			$data = array(
-				'messages_nama' => $nama,
-				'messages_email' => $email,
-				'messages_phone' => $phone,
-				'messages_text' => $messages
-			);
-			$this->m_data->insert_data($data, 'messages');
-			redirect(base_url() . 'welcome#kontak');
-		} else {
-			redirect(base_url() . 'welcome');
-		}
-	}
-
 	public function messages_hapus($id)
 	{
 		$where = array(

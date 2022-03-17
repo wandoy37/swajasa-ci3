@@ -13,11 +13,11 @@
                         <div class="card-body">
                             <table class="table table-bordered">
                                 <thead>
-                                    <tr>
+                                    <tr class="text-center">
                                         <th scope="col">No</th>
                                         <th scope="col">Nama</th>
                                         <th scope="col">Email</th>
-                                        <th scope="col">No Telpon</th>
+                                        <th scope="col">Nomor Telphone</th>
                                         <th scope="col">Pesan</th>
                                         <th scope="col">Opsi</th>
                                     </tr>
@@ -33,9 +33,7 @@
                                             <td><?php echo $m->messages_email; ?></td>
                                             <td><?php echo $m->messages_phone; ?></td>
                                             <td><?php echo $m->messages_text; ?></td>
-                                            <td>
-                                                <a href="<?php echo base_url() . 'dashboard/messages_hapus/' . $m->messages_id; ?>" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i> </a>
-                                            </td>
+                                            <td class="text-center"><a href="<?php echo base_url() . 'dashboard/messages_hapus/' . $m->messages_id; ?>" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i> </a></td>
                                         </tr>
                                     <?php } ?>
                                 </tbody>

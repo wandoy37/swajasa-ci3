@@ -22,7 +22,7 @@
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light  shadow-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?php echo base_url() . '' ?>">
                 <img src="<?php echo base_url() . 'assets/landingpages' ?>/img/brand-swajasa.png" width="200px" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

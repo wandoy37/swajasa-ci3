@@ -60,7 +60,7 @@
                 <p>
                     Teknologi yang mampu menjangkau seluruh pelosok Indonesia.
                 </p>
-                <a href="http://" class="text-white fw-light text-decoration-none fst-italic">More info</a>
+                <a href="<?php echo base_url() . 'single/internetDesaMandiri' ?>" class="text-white fw-light text-decoration-none fst-italic">More info</a>
             </div>
             <div class="col-sm-3 mb-4 text-center pt-2">
                 <img src="<?php echo base_url() . 'assets/landingpages' ?>/img/digital-marketing.png" class="img-fluid" alt="layanan" width="100">
@@ -68,7 +68,7 @@
                 <p>
                     Untuk para pembuat konten youtuber, Kami melayani pembuatan video commercial untuk iklan, company profile.
                 </p>
-                <a href="http://" class="text-white fw-light text-decoration-none fst-italic">More info</a>
+                <a href="<?php echo base_url() . 'single/productionHouseMultimediaCreator' ?>" class="text-white fw-light text-decoration-none fst-italic">More info</a>
             </div>
             <div class="col-sm-3 mb-4 text-center pt-2">
                 <img src="<?php echo base_url() . 'assets/landingpages' ?>/img/cctv-camera.png" class="img-fluid" alt="layanan" width="100">
@@ -76,7 +76,7 @@
                 <p>
                     Kami juga menyediakan jasa Pemasangan CCTV beserta Installasi CCTV.
                 </p>
-                <a href="http://" class="text-white fw-light text-decoration-none fst-italic">More info</a>
+                <a href="<?php echo base_url() . 'single/pemasanganCCTV' ?>" class="text-white fw-light text-decoration-none fst-italic">More info</a>
             </div>
         </div>
     </div>

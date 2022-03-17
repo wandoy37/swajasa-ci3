@@ -54,8 +54,8 @@
             <div class="col-sm-4 pt-4">
                 <div class="card text-center">
                     <div class="card-header bg-primary text-white">
-                        <h4>Lite Plan</h4>
-                        <h5 class="fw-normal fst-italic">Rp 220.000 <small>/month</small></h5>
+                        <h4>Supreme Plan</h4>
+                        <h5 class="fw-normal fst-italic">Rp 370.000 <small>/month</small></h5>
                     </div>
                     <div class="card-body">
                         <table class="table">
@@ -70,7 +70,7 @@
                                     <td><span><i class="fa-solid fa-check text-success"></i> Tidak dibatasi kuota / No FUP</span></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="text-decoration-line-through"><i class="fa-solid fa-xmark text-secondary"></i> Geratis biaya setting</span></td>
+                                    <td><span><i class="fa-solid fa-check text-success"></i> Geratis biaya setting</span></td>
                                 </tr>
                                 <tr>
                                     <td><span class="text-decoration-line-through"><i class="fa-solid fa-xmark text-secondary"></i> Free Registrasi</span></td>
@@ -84,8 +84,8 @@
             <div class="col-sm-4 pt-4">
                 <div class="card text-center">
                     <div class="card-header bg-primary text-white">
-                        <h4>Lite Plan</h4>
-                        <h5 class="fw-normal fst-italic">Rp 220.000 <small>/month</small></h5>
+                        <h4>Bisnis Plan</h4>
+                        <h5 class="fw-normal fst-italic">Rp Hubungi Kami <small></small></h5>
                     </div>
                     <div class="card-body">
                         <table class="table">
@@ -100,10 +100,10 @@
                                     <td><span><i class="fa-solid fa-check text-success"></i> Tidak dibatasi kuota / No FUP</span></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="text-decoration-line-through"><i class="fa-solid fa-xmark text-secondary"></i> Geratis biaya setting</span></td>
+                                    <td><span><i class="fa-solid fa-check text-success"></i> Geratis biaya setting</span></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="text-decoration-line-through"><i class="fa-solid fa-xmark text-secondary"></i> Free Registrasi</span></td>
+                                    <td><span><i class="fa-solid fa-check text-success"></i> Free Registrasi</span></td>
                                 </tr>
                             </tbody>
                         </table>

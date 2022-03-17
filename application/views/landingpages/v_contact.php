@@ -47,7 +47,7 @@
             </div>
             <div class="col-sm-5 pt-4">
                 <h2 class="text-center">Contact us</h2>
-                <form action="<?php echo base_url('dashboard/send_message') ?>" method="post">
+                <form action="<?php echo base_url('welcome/send_message') ?>" method="post">
                     <div class="mb-3">
                         <label class="form-label">Name</label>
                         <input type="text" name="nama" class="form-control" placeholder="Name" required>
