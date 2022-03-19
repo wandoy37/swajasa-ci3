@@ -34,7 +34,7 @@ class Welcome extends CI_Controller
 		$data['kontak'] = $this->m_data->get_data('kontak')->result();
 		$this->load->view('landingpages/v_header.php');
 		$this->load->view('landingpages/v_mitra.php');
-		$this->load->view('landingpages/v_index.php');
+		$this->load->view('landingpages/v_index.php', $data);
 		$this->load->view('landingpages/v_contact.php', $data);
 		$this->load->view('landingpages/v_footer.php');
 	}

@@ -10,7 +10,9 @@
                 <p class="card-text"><small class="text-muted">Pelayanan adalah prioritas kami selaku penyedia layanan internet, Berusaha semaksimal mungkin, meminimalis gangguan dengan monitoring selama 24 jam, Oleh karena itu di era digital seperti sekarang internet adalah kebutuhan pokok yang tidak bisa diabaikan, mulai dari kegiatan usaha, sekolah, perdagangan, konten konten creator, belanja, iklan akan sangat mudah dan efisien bila internet menjadi penunjang itu semua.Untuk itu kami ada dan siap memberikan pelayanan maksimal.</small></p>
                 <div class="row">
                     <div class="col-sm">
-                        <a href="" class="btn btn-sm"><img src="<?php echo base_url() . 'assets/landingpages' ?>/img/whatsapp.png" class="img-fluid sm" width="30px" alt=""> WhatsApp</a>
+                        <?php foreach ($kontak as $k) { ?>
+                            <a href="https://api.whatsapp.com/send/?phone=<?php echo $k->nowa; ?>&text=Hi,+*SWAJASA+Lintas+Media*+!!!" class="btn btn-sm"><img src="<?php echo base_url() . 'assets/landingpages' ?>/img/whatsapp.png" class="img-fluid sm" width="30px" alt=""> WhatsApp</a>
+                        <?php } ?>
                     </div>
                 </div>
             </div>

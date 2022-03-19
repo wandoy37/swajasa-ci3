@@ -42,4 +42,34 @@ class Single extends CI_Controller
 		$this->load->view('landingpages/v_contact.php', $data);
 		$this->load->view('singel/v_footer.php');
 	}
+
+	public function internetDesaMandiri()
+	{
+		$data['title'] = 'Internet Desa Mandiri';
+		$data['kontak'] = $this->m_data->get_data('kontak')->result();
+		$this->load->view('singel/v_header.php', $data);
+		$this->load->view('singel/v_index2.php');
+		$this->load->view('landingpages/v_contact.php', $data);
+		$this->load->view('singel/v_footer.php');
+	}
+
+	public function productionHouseMultimediaCreator()
+	{
+		$data['title'] = 'Production House Multimedia Creator';
+		$data['kontak'] = $this->m_data->get_data('kontak')->result();
+		$this->load->view('singel/v_header.php', $data);
+		$this->load->view('singel/v_index3.php');
+		$this->load->view('landingpages/v_contact.php', $data);
+		$this->load->view('singel/v_footer.php');
+	}
+
+	public function pemasanganCCTV()
+	{
+		$data['title'] = 'Pemasangan CCTV';
+		$data['kontak'] = $this->m_data->get_data('kontak')->result();
+		$this->load->view('singel/v_header.php', $data);
+		$this->load->view('singel/v_index4.php');
+		$this->load->view('landingpages/v_contact.php', $data);
+		$this->load->view('singel/v_footer.php');
+	}
 }
